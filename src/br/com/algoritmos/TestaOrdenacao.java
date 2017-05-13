@@ -12,7 +12,7 @@ public class TestaOrdenacao {
 			new Produto("Fusca", 17000)
 		};
 		
-		//selectionSort(produtos, produtos.length);
+		selectionSort(produtos, produtos.length);
 		insertionSort(produtos, produtos.length);
 		 
 		for (Produto produto : produtos) {

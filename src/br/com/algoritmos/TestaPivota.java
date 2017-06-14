@@ -18,7 +18,7 @@ public class TestaPivota {
 			   joao,
 		};
 		
-		quebraNoPivo(notas,	0, notas.length );
+		quebraNoPivo(notas, 0, notas.length );
 		
 		for (Nota nota : notas) {
 			System.out.println(nota.getAluno() + " " + nota.getValor() );
@@ -35,7 +35,7 @@ public class TestaPivota {
 			Nota atual = notas[i];
 			
 			if(atual.getValor() <= pivo.getValor())
-				menoresEncontrados++;
+			   menoresEncontrados++;
 		}
 		
 		troca(notas, termino -1, menoresEncontrados);
@@ -56,7 +56,7 @@ public class TestaPivota {
 			Nota notaAtual = notas[i];
 			
 			if(notaAtual.getValor() < nota.getValor())
-				menores++;
+			   menores++;
 		}
 		
 		return menores;
